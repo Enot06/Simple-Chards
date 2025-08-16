@@ -108,78 +108,21 @@ h2{
   }
 }
 
-.uroki{
-  font-weight: bolder;
-  text-align: center;
-  font-size: 35px;
-}
-
 p{
   text-align: center;
   /* font-size: 20px; */
 }
 
-.teoria{
-  font-weight: bolder;
-  text-align: center;
-  font-size: 25px;
+.author{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
 }
 
-.photo{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  /* align-items: center; */
-  
-}
-
-.guitar{
-  width: 350px;
-  height: auto;
-  outline: 5px solid black;
-  filter:brightness(75%);
-  border-radius: 25px;
-  
-}
-
-.chord{
-  width: 350px;
-  height: 218px;
-  outline: 5px solid black;
-  filter:brightness(75%);
-  border-radius: 25px;
-  left: 15px;
-}
-
-.fight{
-  width: 350px;
-  height: 218px;
-  outline: 5px solid black;
-  filter:brightness(75%);
-  border-radius: 25px;
-}
-
-.image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.overlay-text { 
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  pointer-events: none; 
-  -webkit-text-stroke: 1px black;
-}
-
-.praktica{
-  font-weight: bolder;
-  text-align: center;
-  font-size: 25px;
+.cartinca{
+    width: 300px;
+    height: 300px;
+    outline: 5px solid black;
+  filter:brightness(45%);
+  border-radius: 100%;
 }

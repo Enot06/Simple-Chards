@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const burger = document.querySelector('.lol');
+  const burger = document.querySelector('.menu-button');
   const menu = document.querySelector('.menu');
 
   burger.addEventListener('click', () => {

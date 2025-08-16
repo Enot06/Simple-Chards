@@ -1,6 +1,6 @@
 body{
     background-color: #DEB887;
-    font-family: sans-serif; 
+    font-family: Verdana; 
 }
 
 header{
@@ -61,7 +61,7 @@ h2{
   display: block;
 }
 
-.lol {
+.menu-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,15 +71,15 @@ h2{
 }
 
 
-.lol.active .line:nth-child(1) {
+.menu-button.active .line:nth-child(1) {
   transform: rotate(45deg) translate(8px, 8px);
 }
 
-.lol.active .line:nth-child(2) {
+.menu-button.active .line:nth-child(2) {
   opacity: 0;
 }
 
-.lol.active .line:nth-child(3) {
+.menu-button.active .line:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -7px);
 }
 
@@ -106,7 +106,7 @@ h2{
     display: none;
   }
 
-  .lol {
+  .menu-button {
     display: block;
   }
 }
