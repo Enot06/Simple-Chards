@@ -126,3 +126,14 @@ p{
   filter:brightness(45%);
   border-radius: 100%;
 }
+
+.author-content {
+  display: flex;
+  gap: 20px; 
+}
+
+.future{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+}
