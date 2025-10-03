@@ -1,13 +1,13 @@
 body{
-    background-color: #DEB887;
-    font-family: Verdana; 
+  background: linear-gradient(90deg,  #b0814f,#cd955b,#d6aa7a);
+  font-family: Verdana; 
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333333;
+    background-color: #070e18;
 }
 
 .textt{    
@@ -19,13 +19,11 @@ header{
     border-radius: 25px;
 }
 
-p{
-    text-align: center;
-}
-h2{
+
+h1{
     color: white;
-    font-size: 20px;
-    margin-left: 15px;
+    font-size: 22px;
+    margin-left: 20px;
 }
 
 .menu {
@@ -111,3 +109,81 @@ h2{
   }
 }
 
+.uroki{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+}
+
+p{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+  color:black;
+}
+
+.teoria{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+}
+
+.photo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  
+}
+
+.guitar{
+  width: 350px;
+  height: auto;
+  outline: 5px solid black;
+  filter:brightness(75%);
+  border-radius: 25px;
+  
+}
+
+.chord{
+  width: 350px;
+  height: 218px;
+  outline: 5px solid black;
+  filter:brightness(75%);
+  border-radius: 25px;
+  left: 15px;
+}
+
+.fight{
+  width: 350px;
+  height: 218px;
+  outline: 5px solid black;
+  filter:brightness(75%);
+  border-radius: 25px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-text { 
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  pointer-events: none; 
+  -webkit-text-stroke: 1px black;
+}
+
+.praktica{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+}
